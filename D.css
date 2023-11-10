@@ -1,0 +1,99 @@
+html{
+	min-height: 100;
+	box-sizing: border-box;
+}
+body
+{
+	background-color: silver;
+}
+
+.produit{
+	display: flex;
+	
+}
+
+.produit div {
+    margin-left: 10%;
+    margin-right: 05%;
+    box-shadow: 6px 5px 8px gray;
+    padding-left: 2%;
+}
+.produit div img:hover{
+	transform: translateY(-5px);
+	transition: 1s;
+}
+ 
+.produit div p{
+	background-color: rgba(199, 18, 18, 0.5);
+	width: 97.5%;
+	padding: 5x;
+	margin-top: -3%;
+	border-radius: 0 10px;
+	color: white;
+
+}
+ 
+#navbar{
+	background: white;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	height: 50px;
+}
+#navbar .logo img{
+	width: 5%;
+	height: 5%;
+	margin-left: 30px;
+}
+.lien a{
+	padding: 16px;
+	text-decoration: none;
+	color: #000;
+}
+.banniere img{
+    width: 350px;
+	height: 350px;
+	margin-left: 5;
+}
+
+
+
+
+   .bannier{
+   	display: flex;
+   }
+   h1{
+   	text-align: center;
+   }
+
+img-image1:bannier{
+	transform: scale(1.3);
+	transition-duration: 3s;
+	top: 100PX;
+	left: 50PX;
+
+}
+
+.BUTTON{
+	float: right;
+	margin-top: -30px;
+	color: #fff;
+	margin-right: 20px;
+}
+
+.footer{
+	background: white;
+	padding: 1px 0;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
